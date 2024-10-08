@@ -1,0 +1,79 @@
+
+/* Estilo do corpo do site */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+}
+
+/* Cabeçalho e navegação */
+header {
+    background-color: #ff69b4; /* Pink */
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Seções principais */
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #00008b; /* Azul escuro */
+}
+
+article {
+    background-color: #00008b; /* Azul escuro */
+    color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #00008b;
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #00008b;
+}
+
+form button {
+    background-color: #ff69b4; /* Pink */
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #e60073;
+}
